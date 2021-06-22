@@ -93,16 +93,19 @@ Let us now construct a few features like:
 - __cwc_min__ :  Ratio of common_word_count to min lenghth of word count of Q1 and Q2 <br>cwc_min = common_word_count / (min(len(q1_words), len(q2_words))
 <br>
 <br>
+
 - __cwc_max__ :  Ratio of common_word_count to max lenghth of word count of Q1 and Q2 <br>cwc_max = common_word_count / (max(len(q1_words), len(q2_words))
 <br>
-
 <br>
+
 - __csc_min__ :  Ratio of common_stop_count to min lenghth of stop count of Q1 and Q2 <br> csc_min = common_stop_count / (min(len(q1_stops), len(q2_stops))
 <br>
 <br>
+
 - __csc_max__ :  Ratio of common_stop_count to max lenghth of stop count of Q1 and Q2<br>csc_max = common_stop_count / (max(len(q1_stops), len(q2_stops))
 <br>
 <br>
+
 - __ctc_min__ :  Ratio of common_token_count to min lenghth of token count of Q1 and Q2<br>ctc_min = common_token_count / (min(len(q1_tokens), len(q2_tokens))
 <br>
 <br>
@@ -126,22 +129,27 @@ Let us now construct a few features like:
 - __mean_len__ :  Average Token Length of both Questions<br>mean_len = (len(q1_tokens) + len(q2_tokens))/2
 <br>
 <br>
+
 - __fuzz_ratio__ :  https://github.com/seatgeek/fuzzywuzzy#usage
 http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
 <br>
 <br>
+
 - __fuzz_partial_ratio__ :  https://github.com/seatgeek/fuzzywuzzy#usage
 http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
 <br>
 <br>
+
 - __token_sort_ratio__ : https://github.com/seatgeek/fuzzywuzzy#usage
 http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
 <br>
 <br>
+
 - __token_set_ratio__ : https://github.com/seatgeek/fuzzywuzzy#usage
 http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
 <br>
 <br>
+
 - __longest_substr_ratio__ :  Ratio of length longest common substring to min lenghth of token count of Q1 and Q2<br>longest_substr_ratio = len(longest common substring) / (min(len(q1_tokens), len(q2_tokens))
 
 
