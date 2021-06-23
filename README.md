@@ -1,8 +1,8 @@
-# quora-question-pair-similarity
+# Quora-question-pair-similarity
 Quora Question Pair Similarity using Machine Learning and Deep Learning
 
 **NOTE:
-download `train.csv.zip` and `test.csv.zip` form here: [Click to download dataset!](https://www.kaggle.com/c/quora-question-pairs/data)**. Extract the dataset and put jupyter notebook and the dataset in the same file.
+download `train.csv.zip` and `test.csv.zip` form here: [Click to download dataset!](https://www.kaggle.com/c/quora-question-pairs/data)**. Extract the dataset and put jupyter notebook and the dataset in the same folder/location.
 
 ## Description
 Quora is a place to gain and share knowledge—about anything. It’s a platform to ask questions and connect with people who contribute unique insights and quality answers. This empowers people to learn from each other and to better understand the world.
